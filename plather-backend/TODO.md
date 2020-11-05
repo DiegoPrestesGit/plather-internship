@@ -1,6 +1,6 @@
 <div align="center">
 
-  # TODO :milky_way:
+  # TODO BACKEND :milky_way:
 
 </div>
 
@@ -10,13 +10,12 @@
 ## :new_moon: POOL OF TODOS
 
 * [ ] do some PostgreSQL (with Docker), probably use the typeORM with it for some DB configuration in the database folder
-* [ ] create some config files in case i need some setup for my implementations
-* [ ] make some changes in the ReadMe file
+* [ ] create the migrations for the files (i'll use the paths of the files, not the file himself)
 * [ ] create some middlewares to run with my application
-* [ ] implement tests
-  * [ ] create a "BusinessRules.md" to map all the tests that will be implemented with JestJS
-  * [ ] implement some tests for the services with JestJS
+* [ ] create a simple repository CRUD for the pics
+* [ ] create the routes for my express routing
 * [ ] configure Insomnia with all the routes and facilities and goodies and resources that will help me in the development process
+* [ ] create a really good readme.md!
 
 </br>
 
@@ -28,16 +27,12 @@
 
 </br>
 
-<img alt="JinxedFixed" src="./git_assets/jinxfix.gif" />
-
 ## :full_moon: DONE (for now) ✓
 
-* [x] create the first TODO.md and README.me
+* [x] create the TODO.md and README.md
+* [x] create config for the file upload
 * [x] create the AppError class for my errors folder
 * [x] implement the folders structure, just the basic
-* [x] create a simple user model to exemplify, just to illustrate the model
-* [x] create a simple repository CRUD to exemplify, just to illustrate a repository in this template
-* [x] create the routes for my express routing, 
 * [x] create the service folder with some business rules
 * [x] create dtos folder with some dto for example
 * [x] configure prettier to organize my code and do it in a prettier way (get it? ( ͡° ͜ʖ ͡°))
