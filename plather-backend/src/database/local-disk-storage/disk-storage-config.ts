@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 
-import uploadConfig from '../config/upload'
+import uploadConfig from '../../config/upload'
 import diskStorageInterface from './models/disk-storage-config-interface'
 
 export default class diskStorageConfig implements diskStorageInterface {
@@ -10,7 +10,7 @@ export default class diskStorageConfig implements diskStorageInterface {
       path.resolve(uploadConfig.tempFolder, file),
       path.resolve(uploadConfig.uploadsFolder, file)
     )
-
+    console.log('the file name is', file)
     return file
   }
 
