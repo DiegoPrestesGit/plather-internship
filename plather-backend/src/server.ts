@@ -4,6 +4,8 @@ import cors from 'cors'
 import AppError from './errors/app-error'
 import routes from './routes/index.routes'
 
+import './database/typeorm/index'
+
 const app = express()
 app.use(cors())
 app.use(express.json())

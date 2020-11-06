@@ -9,17 +9,14 @@
 
 ## :new_moon: POOL OF TODOS
 
-* [ ] do some PostgreSQL (with Docker), probably use the typeORM with it for some DB configuration in the database folder
-* [ ] create the migrations for the files (i'll use the paths of the files, not the file himself)
-* [ ] create some middlewares to run with my application
-* [ ] create a simple repository CRUD for the pics
 * [ ] create the routes for my express routing
+* [ ] create the migrations for the files (i'll use the paths of the files, not the file himself)
 * [ ] configure Insomnia with all the routes and facilities and goodies and resources that will help me in the development process
 * [ ] create a really good readme.md!
 
 </br>
 
-## :last_quarter_moon: NEXT TODOS TODO (get it? ( ͡° ͜ʖ ͡°))
+## :last_quarter_moon: NEXT TODOS TODO
 
 </br>
 
@@ -35,8 +32,10 @@
 * [x] implement the folders structure, just the basic
 * [x] create the service folder with some business rules
 * [x] create dtos folder with some dto for example
-* [x] configure prettier to organize my code and do it in a prettier way (get it? ( ͡° ͜ʖ ͡°))
+* [x] configure prettier to organize my code and do it in a prettier way
 * [x] put all the files with the best practices
 * [x] create a simple debug configuration
+* [x] create a simple repository CRUD for the pics
+* [x] do some MongoDB (with Docker), probably use the typeORM with it for some DB configuration in the database folder
 
 </br>
