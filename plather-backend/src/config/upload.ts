@@ -2,7 +2,7 @@ import path from 'path'
 import crypto from 'crypto'
 import multer from 'multer'
 
-const tempFolder = path.resolve(process.cwd(), '..', '..', 'temp')
+const tempFolder = path.resolve(process.cwd(), 'temp')
 
 export default {
   tempFolder,
@@ -12,7 +12,7 @@ export default {
   config: {
     multer: {
       storage: multer.diskStorage({
-        destination: path.resolve(process.cwd(), '..', '..', 'temp'),
+        destination: path.resolve(process.cwd(), 'temp'),
         filename(_, file, callback) {
           const fileHash = crypto.randomBytes(10).toString('hex')
           const fileName = `${fileHash}-${file.originalname}`

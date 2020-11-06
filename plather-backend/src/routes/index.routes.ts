@@ -1,16 +1,13 @@
-import { Request, Response, Router } from 'express'
+import { Router } from 'express'
+import multer from 'multer'
+
+import uploadConfig from '../config/upload'
+import ImageController from '../controllers/image-controller'
 
 const routes = Router()
+const upload = multer(uploadConfig.config.multer)
+const imageController = new ImageController()
 
-routes.get('/', (_: Request, response: Response) => {
-  console.log('xama no bresque')
-
-  const xqdl = {
-    bresque: 'deregue',
-    deregue: 'bresque'
-  }
-
-  return response.json(xqdl)
-})
+routes.post('/', upload.single('image'), imageController.create)
 
 export default routes

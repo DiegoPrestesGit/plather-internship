@@ -6,11 +6,12 @@ import diskStorageInterface from './models/disk-storage-config-interface'
 
 export default class diskStorageConfig implements diskStorageInterface {
   public async saveFile(file: string): Promise<string> {
+    console.log('proces', process.cwd())
     await fs.promises.rename(
       path.resolve(uploadConfig.tempFolder, file),
       path.resolve(uploadConfig.uploadsFolder, file)
     )
-    console.log('the file name is', file)
+    console.log('passou aqui também')
     return file
   }
 

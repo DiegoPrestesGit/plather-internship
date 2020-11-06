@@ -12,6 +12,7 @@
 * [ ] create the routes for my express routing
 * [ ] create the migrations for the files (i'll use the paths of the files, not the file himself)
 * [ ] configure Insomnia with all the routes and facilities and goodies and resources that will help me in the development process
+* [ ] remove console.logs
 * [ ] create a really good readme.md!
 
 </br>
