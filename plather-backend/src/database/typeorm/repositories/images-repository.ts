@@ -15,10 +15,12 @@ export default class ImagesRepository {
   }
 
   public async delete(path: string): Promise<void> {
-    try {
-      await this.ormRepository.findOneAndDelete({ path })
-    } catch {
-      throw new AppError('The delete catch', 500)
+    this.ormRepository = getMongoRepository(Image)
+    const finded = await this.ormRepository.findOne({ path })
+    if (finded) {
+      await this.ormRepository.delete({ path })
+    } else {
+      throw new AppError('Unable to find the file')
     }
   }
 }
