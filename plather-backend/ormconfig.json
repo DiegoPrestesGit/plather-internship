@@ -1,0 +1,11 @@
+{
+  "name": "default",
+  "type": "mongodb",
+  "host": "localhost",
+  "port": 27017,
+  "database": "mongo-plather",
+  "useUnifiedTopology": "true",
+  "entities": [
+    "./src/database/typeorm/schemas/*.ts"
+  ]
+}

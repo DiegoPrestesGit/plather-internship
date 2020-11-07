@@ -9,19 +9,21 @@
 
 ## :new_moon: POOL OF TODOS
 
-* [ ] create the routes for my express routing
-* [ ] create the migrations for the files (i'll use the paths of the files, not the file himself)
-* [ ] configure Insomnia with all the routes and facilities and goodies and resources that will help me in the development process
 * [ ] remove console.logs
+* [ ] configure Insomnia with all the routes and facilities and goodies and resources that will help me in the development process
 * [ ] create a really good readme.md!
 
 </br>
 
 ## :last_quarter_moon: NEXT TODOS TODO
 
+* [ ] create the delete option in disk
+
 </br>
 
 ## :first_quarter_moon: DOING 
+
+* [ ] create the delete option in database
 
 </br>
 
@@ -37,6 +39,9 @@
 * [x] put all the files with the best practices
 * [x] create a simple debug configuration
 * [x] create a simple repository CRUD for the pics
+* [x] make the disk storage work proper
+* [x] create the routes for my express routing
+* [x] create the migrations for the files (i'll use the paths of the files, not the file himself)
 * [x] do some MongoDB (with Docker), probably use the typeORM with it for some DB configuration in the database folder
 
 </br>
