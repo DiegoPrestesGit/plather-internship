@@ -100,6 +100,7 @@ a {
 .social-icon-link {
   color: #fff;
   font-size: 24px;
+  
 }
 
 .social-media {
@@ -160,7 +161,4 @@ a {
   .social-media-wrap {
     flex-direction: column;
   }
-}
-
-@media screen and (max-width: 768px) {
 }

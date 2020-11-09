@@ -22,6 +22,7 @@ h1, p {
   font-family: 'Montserrat';
   font-weight: 100;
   text-align: center;
+  color: #828181;
 }
 
 #open__sans__p {
@@ -50,7 +51,7 @@ h1, p {
   width: 4rem;
   height: 3.5px;
   border-radius: 30px;
-  background-color: #252e48;
+  background-color: #828181;
 }
 
 .cards__wrapper {
@@ -74,7 +75,7 @@ h1, p {
   display: flex;
   flex-flow: column;
   align-items: center;
-  height: 25rem;
+  height: 100%;
   width: 100%;
   border-radius: 10px;
   overflow: hidden;

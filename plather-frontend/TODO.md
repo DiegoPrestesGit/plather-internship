@@ -11,13 +11,7 @@
 
 * [ ] set buttons in the cards
 * [ ] set the clicable just for the button in the card
-* [ ] set the right colours for texts and other resourses
-* [ ] set the right fonts for the text
 * [ ] fix the searchbar icon
-* [ ] create "scroll down" button
-* [ ] implement the folders structure, just the basic
-* [ ] put all the files with the best practices
-* [ ] create a really good readme.md!
 
 </br>
 
@@ -28,11 +22,15 @@
 
 ## :first_quarter_moon: DOING 
 
+* [ ] create "scroll down" button
+* [ ] create a really good readme.md!
 
 </br>
 
 ## :full_moon: DONE (for now) ✓
 
+* [x] implement the folders structure, just the basic
+* [x] put all the files with the best practices
 * [x] configure prettier to organize my code and do it in a prettier way
 * [x] create the TODO.md and README.md
 * [x] create the basic shape
@@ -42,5 +40,7 @@
 * [x] fix the space between "what we do" and the image display
 * [x] fix the separator right below "what we do"
 * [x] fix the fonts in the line after the separator
+* [x] set the right colours for texts and other resourses
+* [x] set the right fonts for the text
 
 </br>

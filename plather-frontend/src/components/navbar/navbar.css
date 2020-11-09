@@ -24,11 +24,13 @@
 }
 
 .input-box .searchbar {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  color: #111111;
   background-color: transparent;
   border-color: transparent;
   margin-left: 0.5rem;
   margin-top: 3.5px;
-  font-size: 16px;
 }
 
 .navbar-container {
@@ -45,13 +47,14 @@
 }
 
 .nav-menu {
+  font-family: 'Montserrat';
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  grid-gap: 1.5px;
   list-style: none;
   text-align: center;
   font-size: 1rem;
-  width: 40vw;
+  width: 38.8vw;
   justify-content: start;
   margin-right: 2rem;
 }

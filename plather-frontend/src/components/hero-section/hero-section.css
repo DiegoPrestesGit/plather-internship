@@ -18,16 +18,15 @@
 }
 
 .hero-container > h1 {
-  color: #fff;
-  font-weight: 500px;
-  font-size: 55pt;
   font-family: 'Montserrat';
-  margin-top: -100px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 73.3px;
 }
 
 .hero-container button {
   background-color: #54d154;
-  border-color: #54d154;
+  border-color: transparent;
   border-radius: 30px;
 }
 
