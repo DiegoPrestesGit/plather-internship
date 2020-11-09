@@ -13,9 +13,9 @@ function Cards() {
     <div className="cards">
       <div className="text__container">
         <h1>WHAT WE DO</h1>
-        <div id="divisor"></div>
+        <div id="separator"></div>
         <div className="tricky__font">
-          <p>she's a silver lining, </p>
+          <p id="open__sans__p">she's a silver lining, </p>
           <p id="tricky__p">lone ranger riding through an open space</p>
         </div>
       </div>

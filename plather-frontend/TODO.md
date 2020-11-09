@@ -9,14 +9,12 @@
 
 ## :new_moon: POOL OF TODOS
 
-* [ ] fix the space between "what we do" and the image display
-* [ ] fix the separator right below "what we do"
-* [ ] fix the fonts in the line after the separator
 * [ ] set buttons in the cards
 * [ ] set the clicable just for the button in the card
 * [ ] set the right colours for texts and other resourses
 * [ ] set the right fonts for the text
 * [ ] fix the searchbar icon
+* [ ] create "scroll down" button
 * [ ] implement the folders structure, just the basic
 * [ ] put all the files with the best practices
 * [ ] create a really good readme.md!
@@ -41,5 +39,8 @@
 * [x] import the right fonts
 * [x] fix the size of the footer
 * [x] create the search bar
+* [x] fix the space between "what we do" and the image display
+* [x] fix the separator right below "what we do"
+* [x] fix the fonts in the line after the separator
 
 </br>

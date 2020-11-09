@@ -3,10 +3,6 @@
   background: #fff;
 }
 
-h1, p {
-  text-align: center;
-}
-
 .cards__container {
   display: flex;
   flex-flow: column;
@@ -22,8 +18,35 @@ h1, p {
   align-items: center;
 }
 
-#divisor {
-  margin: 7px 0 5px 0;
+h1, p {
+  font-family: 'Montserrat';
+  font-weight: 100;
+  text-align: center;
+}
+
+#open__sans__p {
+  font-family: 'Open Sans';
+  font-weight: 100;
+  font-size: 17px;
+}
+
+.tricky__font {
+  display: flex;
+  align-items: center;
+}
+
+.tricky__font p{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#tricky__p {
+  margin-left: 3px;
+}
+
+
+#separator {
+  margin: 0.5rem;
   width: 4rem;
   height: 3.5px;
   border-radius: 30px;
@@ -56,15 +79,6 @@ h1, p {
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
-}
-
-.tricky__font p{
-  display: inline-block;
-  vertical-align: top;
-}
-
-#tricky__p {
-  margin-left: 3px;
 }
 
 .fade-img {
