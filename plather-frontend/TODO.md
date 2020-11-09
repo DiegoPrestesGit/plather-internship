@@ -24,6 +24,7 @@
 
 * [ ] create "scroll down" button
 * [ ] create a really good readme.md!
+* [ ] clean the code
 
 </br>
 
