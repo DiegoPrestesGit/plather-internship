@@ -22,7 +22,6 @@
 
 ## :first_quarter_moon: DOING 
 
-* [ ] create "scroll down" button
 * [ ] create a really good readme.md!
 * [ ] clean the code
 
@@ -43,5 +42,6 @@
 * [x] fix the fonts in the line after the separator
 * [x] set the right colours for texts and other resourses
 * [x] set the right fonts for the text
+* [x] create "scroll down" button
 
 </br>
