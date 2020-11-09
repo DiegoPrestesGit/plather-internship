@@ -1,29 +1,13 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import Button from '../button/button'
-import './navbar.css'
 import Logo from '../../assets/logo.png'
+import './navbar.css'
 
 function Navbar() {
   const [click, setClick] = useState(false)
-  const [button, setButton] = useState(true)
 
   const handleClick = () => setClick(!click)
   const closeMobileMenu = () => setClick(false)
-
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false)
-    } else {
-      setButton(true)
-    }
-  }
-
-  useEffect(() => {
-    showButton()
-  }, [])
-
-  window.addEventListener('resize', showButton)
 
   return (
     <>
@@ -71,7 +55,9 @@ function Navbar() {
             <img src={Logo} alt="" />
           </Link>
         </div>
-        {button && <Button buttonStyle="btn--outline">SEARCHBAR</Button>}
+        <div className="input-box">
+          <input type="text" className="searchbar" placeholder="Search..." />
+        </div>
       </nav>
     </>
   )

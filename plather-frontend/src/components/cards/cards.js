@@ -31,7 +31,6 @@ function Cards() {
               "
               path="/WhatWeDo"
             />
-            <Button />
             <CardItem
               src={ImageTwo}
               text="When the zeros line up on the 24 hour clock
