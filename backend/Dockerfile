@@ -6,14 +6,10 @@ WORKDIR /usr/src/app
 
 COPY package.json /usr/src/app
 
-RUN npm i --silent
+RUN npm install
 
 COPY . /usr/src/app
 
-# RUN npm run migrate
-
-# RUN npm run seed
-
-EXPOSE 8080
+EXPOSE 3000
 
 CMD ["npm", "run", "dev"]

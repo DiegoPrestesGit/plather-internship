@@ -6,7 +6,6 @@
 
 </br>
 
-
 ## :new_moon: POOL OF TODOS
 
 * [ ] set buttons in the cards
