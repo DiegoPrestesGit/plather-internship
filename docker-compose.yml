@@ -1,0 +1,50 @@
+version: '3.7'
+
+services:
+  backend:
+    container_name: backend
+    restart: unless-stopped
+    build: ./backend
+    ports:
+      - '3333:3333'
+    env_file: ./backend/.env
+    environment:
+
+    networks:
+      - internal
+    depends_on:
+      - plather-db
+  
+  frontend:
+    container_name: frontend
+    restart: unless-stopped
+    build: ./frontend
+    environment:
+      - NODE_PATH=/app/src
+    ports:
+      - '3000:3000'
+    networks:
+      - internal
+    depends_on:
+      - backend
+  
+  plather-db:
+    container_name: plather-db
+    image: mongo
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_DATABASE: plather-db
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo_data:/data/db
+      - mongo_config:/data/configdb
+    networks:
+      - internal
+
+networks:
+  internal:
+
+volumes:
+  mongo_data: {}
+  mongo_config: {}

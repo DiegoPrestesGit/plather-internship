@@ -9,8 +9,6 @@
 
 ## :new_moon: POOL OF TODOS
 
-* [ ] configure Insomnia with all the routes and facilities and goodies and resources that will help me in the development process
-* [ ] create a really good readme.md!
 
 </br>
 
@@ -45,5 +43,7 @@
 * [x] create the delete option in disk
 * [x] do the basics of business rules
 * [x] remove console.logs
+* [x] configure Insomnia with all the routes and facilities and goodies and resources that will help me in the development process
+* [x] create a really good readme.md!
 
 </br>

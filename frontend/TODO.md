@@ -11,6 +11,8 @@
 * [ ] set buttons in the cards
 * [ ] set the clicable just for the button in the card
 * [ ] fix the searchbar icon
+* [ ] add the icons that missing
+* [ ] clean the code
 
 </br>
 
@@ -21,8 +23,6 @@
 
 ## :first_quarter_moon: DOING 
 
-* [ ] create a really good readme.md!
-* [ ] clean the code
 
 </br>
 
@@ -42,5 +42,6 @@
 * [x] set the right colours for texts and other resourses
 * [x] set the right fonts for the text
 * [x] create "scroll down" button
+* [x] create a really good readme.md!
 
 </br>
