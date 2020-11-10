@@ -48,4 +48,4 @@ This was probably the best experience I had in the last few months, it taught me
 * Docker and Docker-compose: learn to setup the environment and work completely inside a container.
 * Frontend + Backend integration: even though I didn't install Axios to do the integration, I'm sure it's something that deserves my attention.
 
-### Once again, thank you for your challenge and your time. I would love to receive feedback, positive or negative, honesty is something I value. If you were curious and didn't look inside the back-end and front-end documents that I told you, do it! I created it for you.
+#### Once again, thank you for your challenge and your time. I would love to receive feedback, positive or negative, honesty is something I value.
